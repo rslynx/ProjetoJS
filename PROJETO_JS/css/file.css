@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'got';
+  src: url('got.ttf') format('truetype');
+}body{
+  min-height: 100vh;
+  min-width: 100vh;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background-image: url('background1.jpg');
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'got', sans-serif;
+
+}
+table{
+  font-family: 'got';
+}
+body h1 {
+  font-family: 'got';
+  color: #f0efed;
+  font-size: 45px;
+}
+#thr1{
+  font-family: 'got';
+}
+#t1{
+  font-family: 'got';
+}
+#myChar{
+  width: 250px;
+  height: 45px;
+  font-family: 'got';
+  margin-top: 20px;
+  margin-bottom: 250px;
+
+}
+#jonBtn{
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 20px 32px;
+  font-size: 15px;
+  font-family: 'got';
+
+
+}
+
+#myTable {
+  border: 20px;
+  border-width: medium;
+  color: #f0efed;
+  font-size: 15px;
+  padding-top: 55px;
+  width: 600.333px;
+  height: 242.656px.;
+}
+#myTable td{
+  font-size: 20px
+}
+#error{
+  font-size: 10px;
+}
