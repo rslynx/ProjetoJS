@@ -57,7 +57,7 @@ body h1 {
   border-width: medium;
   color: #f9faf9;
   font-size: 15px;
-  padding-top: 200px;
+  padding-top: 450px;
   width: 600.333px;
   height: 435px;
 }
@@ -85,6 +85,6 @@ footer p{
   display: flex;
   align-self: center;
   min-width: 100vw;
-  margin-top: 55px;
+  margin-top: 380px;
 
 }
