@@ -15,6 +15,7 @@ goBtn.addEventListener('click', ()=>{
     fetch(url)
       .then(res => res.json())
       .then (insertChar =>{
+
         let thead = '<thead id="thr1"></thead>'
         let rows =`<tr><th>nome</th><td>: ${insertChar[0].name}</td></tr><br></br>
         <tr><th>genero</th><td>: ${insertChar[0].gender}</td></tr>

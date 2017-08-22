@@ -14,6 +14,10 @@
   font-family: 'got', sans-serif;
 
 }
+
+section{
+  height: 50px;
+}
 table{
   font-family: 'got';
 }
@@ -50,16 +54,32 @@ body h1 {
 
 #myTable {
   border: 20px;
+  position: relative;
   border-width: medium;
   color: #f0efed;
   font-size: 15px;
   padding-top: 55px;
   width: 600.333px;
-  height: 242.656px.;
+  height: 435px;
 }
 #myTable td{
   font-size: 20px
 }
-#error{
-  font-size: 10px;
+
+
+footer {
+    color: #666;
+    background: #222;
+    border-top: 1px solid #000;
+}
+footer a {
+    color: #999;
+}
+footer a:hover {
+    color: #efefef;
+}
+#foot {
+  min-width: 100vh;
+  width: 1013px;
+  tex
 }
